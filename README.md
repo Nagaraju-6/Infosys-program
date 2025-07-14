@@ -1,2 +1,15 @@
-# Infosys-program
-AI Meme Judge is a fun and interactive Streamlit web app that uses Azure OpenAI (GPT-4o) to rate memes uploaded by users. It’s designed to mimic a brutally honest, sarcastic meme critic — providing feedback, roasting users, and suggesting funnier versions of their memes.
+# AI Meme Judge — Using Azure OpenAI & Streamlit
+
+This tool lets users upload memes and get funny, sarcastic feedback using GPT-4 via Azure.
+
+## How to Use
+
+1. Add your Azure credentials to `.env`
+2. Run:
+   pip install -r requirements.txt
+   streamlit run main.py
+
+## Features
+
+- Upload meme caption or image
+- Get roast + rating + funnier suggestion
